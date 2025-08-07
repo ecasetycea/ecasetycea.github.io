@@ -1,0 +1,30 @@
+:root{
+    --main-color: rgb(211, 11, 11);
+    --padding-color: rgb(255, 170, 170);
+    --border-color: rgb(223, 108, 108);
+    --backdrop-color: rgb(247, 224, 163);
+
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backdrop-color);
+}
+
+.construct{
+    width: 40vw;
+    padding: 1rem 1rem;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+
+    color: var(--main-color);
+    background-color: var(--padding-color);
+    border: 3px solid var(--border-color);
+    border-radius: 1vw;
+}
